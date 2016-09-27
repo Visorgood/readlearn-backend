@@ -25,7 +25,7 @@ public class MainController {
     @ResponseStatus(HttpStatus.OK)
     public String index() {
         LOGGER.info("index()");
-        return "Greetings from ReadLearn backend service!";
+        return "Greetings from ReadLearn backend service! Just let's test jenkins";
     }
 
     @RequestMapping(value = "/lookup/{word}", method = RequestMethod.GET)
